@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Cedarville Cursive';
+}
+
+
+.main-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    .row{
+        display: flex;
+        margin-right: 15rem;
+        .logo{
+            img{
+                width: 5.5rem;
+                border-radius: 50%;
+                margin: 1px;
+            }
+        }
+        .title{
+    margin-left: 0.6rem
+        }
+    }
+.inner-div{
+img{
+    width: 25rem;
+    height: 25rem;
+
+}
+}
+.icon{
+    margin-left: 16rem;
+i{
+    color: black; 
+    // width: 100px;
+    // height: 100px; 
+    margin-right: 1rem;
+    font-size: 1.5rem;
+    margin-right: 1rem;
+}
+.save{
+    margin-left: 15rem;
+}
+}
+}
+.inner-div i {
+    position: absolute;
+    color: red;
+    top: 50%;
+    left: 50%;
+    // width: 100px;
+    // height: 100px;
+    transform: translate(-50%, -50%);
+  animation: heartGrow 1s linear;
+  -webkit-animation: heartGrow 1s linear; 
+}
+
+@keyframes heartGrow {
+    100% {
+        transform: scale(8);
+        opacity: 0;
+    //   transform: translate(-50%, -50%) scale(1);
+    }
+  }
+
+  .liked{
+    font-weight: bold;
+    color: red !important;
+  }
+
+  #colorText {
+    margin-top: 10px;
+  }
+  
+  .red {
+    color: red;
+  }
